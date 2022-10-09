@@ -1,0 +1,38 @@
+body, html {
+    height:100%;
+}
+
+input {
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #808080;
+    font-size: 24px;
+    padding: 24px 24px 24px 24px;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 120px 1fr 1fr 1fr 1fr 1fr;
+    background: #00FFFF;
+    font-family: system-ui;
+    text-align: center;
+    padding: 12px 24px 12px 24px;
+}
+
+.result {
+    grid-column: 1 / 4;
+    text-align: left;
+}
+
+.caption {
+    color: #FFFFFF;
+    font-size: 48px;
+    grid-column: 1 / 5;
+}
+
+.red {
+    background: #FF0000;
+}
